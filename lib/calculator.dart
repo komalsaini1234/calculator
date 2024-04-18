@@ -16,7 +16,7 @@ class _calculatorState extends State<calculator> {
   String optoperform = "";
   late String res;
   void onbtnclicked(String btnvalue) {
-    if (btnvalue == "C") {
+    if (btnvalue == "CA") {
       texttodisplay = "";
       firstnum = 0;
       secondnum = 0;
@@ -101,7 +101,7 @@ class _calculatorState extends State<calculator> {
                 custombutton("9"),
                 custombutton("8"),
                 custombutton("7"),
-                custombutton("C"),
+                custombutton("CA"),
               ]),
               Row(children: [
                 custombutton("6"),
